@@ -17,4 +17,10 @@ class Bottles
     end
   end
 
+  def verses(count_1,count_2)
+    verse(count_1) +
+    "\n" +
+    verse(count_2)
+  end
+
 end
