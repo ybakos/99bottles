@@ -12,7 +12,6 @@ VERSE
   end
 
   def test_another_verse
-    skip
     expected = <<-VERSE
 89 bottles of beer on the wall, 89 bottles of beer.
 Take one down and pass it around, 88 bottles of beer on the wall.
@@ -21,7 +20,6 @@ VERSE
   end
 
   def test_verse_2
-    skip
     expected = <<-VERSE
 2 bottles of beer on the wall, 2 bottles of beer.
 Take one down and pass it around, 1 bottle of beer on the wall.
@@ -39,7 +37,6 @@ Take it down and pass it around, no more bottles of beer on the wall.
   end
 
   def test_verse_0
-    skip
     expected = <<-VERSE
 No more bottles of beer on the wall, no more bottles of beer.
 Go to the store and buy some more, 99 bottles of beer on the wall.
@@ -48,7 +45,6 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
   end
 
   def test_a_couple_verses
-    skip
     expected = <<-VERSES
 99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
