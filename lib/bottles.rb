@@ -14,7 +14,9 @@ class Bottles
     end
 
     output
+  end
 
+  def verses(_)
   end
 
 end
