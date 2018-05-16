@@ -16,7 +16,7 @@ class Bottles
     output
   end
 
-  def verses(_)
+  def verses(first, second)
   end
 
 end
