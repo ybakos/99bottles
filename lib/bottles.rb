@@ -27,13 +27,12 @@ class Bottles
     end
   end
 
-  def verses(current_verse, end_verse)
-    return_string = ""
-    while current_verse != end_verse
-      return_string << verse(current_verse) << "\n"
-      current_verse -= 1
-    end
-    return_string
+  def verses(start_verse, end_verse)
+    start_verse.downto(end_verse).map { |n| verse(n) }.join "\n"
+  end
+
+  def song
+    verses(99, 0)
   end
 
 end
