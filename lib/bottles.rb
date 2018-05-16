@@ -17,4 +17,7 @@ class Bottles
     first.downto(last).map { |verse_num| verse(verse_num)}.join("\n")
   end
 
+  def song
+  end
+
 end
