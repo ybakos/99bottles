@@ -18,8 +18,12 @@ class Bottles
 
   end
 
-  def verses(first_verse_number, second_verse_number)
-    return verse(first_verse_number) << "\n" << verse(second_verse_number)
+  def verses(first_verse_number, last_verse_number)
+    first_verse_number.downto(last_verse_number).map { |n| verse(n) }.join("\n")
+  end
+
+  def song()
+    verses(99,0)
   end
 
 end
